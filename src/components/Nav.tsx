@@ -17,8 +17,8 @@ const Nav = () => {
               src="/jjcx_logo.svg"
               alt="JJCX Logo"
               width={75}
-              height={24}
-              priority
+              height={18}
+              loading="eager"
             />
           </a>
         </div>
