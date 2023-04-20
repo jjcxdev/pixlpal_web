@@ -18,7 +18,6 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap"
           rel="stylesheet"
         ></link>
-        <title>PixlPal</title>
       </Head>
       <body>
         <Main />

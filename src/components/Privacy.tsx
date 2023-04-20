@@ -37,8 +37,8 @@ const Privacy = ({ onBackButtonClick }: PrivacyProps) => {
           </h1>
           <ul className="mt-4 list-disc pl-4 font-serif">
             <li>
-              PixlPal is provided "as is", and we are not responsible for any
-              damage or harm caused by the use of our app.
+              PixlPal is provided &ldquo;as is&rdquo;, and we are not
+              responsible for any damage or harm caused by the use of our app.
             </li>
             <li>
               The scope of PixlPal is limited to sampling screen colors and
@@ -74,8 +74,8 @@ const Privacy = ({ onBackButtonClick }: PrivacyProps) => {
               Canada.
             </li>
             <li>
-              We reserve the right to terminate a user's access to PixlPal if
-              they violate any of these terms and conditions.
+              We reserve the right to terminate a user&apos;s access to PixlPal
+              if they violate any of these terms and conditions.
             </li>
           </ul>
         </div>
