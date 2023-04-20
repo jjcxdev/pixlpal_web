@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="bg-gradient-to-r from-[#E933ED] to-[#65C4FA] bg-clip-text text-6xl font-bold text-transparent">
         PixlPal
       </div>
-      <div className="mx-12 font-sans text-3xl font-light">
+      <div className="mx-12 font-poppins text-3xl font-light">
         Select any{" "}
         <span className="bg-gradient-to-r from-[#E933ED] to-[#65C4FA] bg-clip-text font-extrabold text-transparent">
           COLOR
@@ -47,9 +47,9 @@ const Hero = () => {
         </button>
       </div>
 
-      <div className="flex w-screen flex-col justify-center gap-12 bg-[#f6fbff] px-10 py-8 font-serif lg:px-80 lg:py-20">
+      <div className="flex w-screen flex-col justify-center gap-12 bg-[#f6fbff] px-10 py-8 font-sourcecode lg:px-80 lg:py-20">
         <div>
-          <div className="bg-gradient-to-r from-[#E933ED] to-[#65C4FA] bg-clip-text pb-2 font-sans text-3xl font-extrabold text-transparent">
+          <div className="bg-gradient-to-r from-[#E933ED] to-[#65C4FA] bg-clip-text pb-2 font-poppins text-3xl font-extrabold text-transparent">
             ABOUT
           </div>
           PixlPal is a macOS application designed to help users easily capture
@@ -60,10 +60,10 @@ const Hero = () => {
           more.
         </div>
         <div>
-          <div className="bg-gradient-to-r from-[#E933ED] to-[#65C4FA] bg-clip-text pb-2 font-sans text-3xl font-extrabold text-transparent">
+          <div className="bg-gradient-to-r from-[#E933ED] to-[#65C4FA] bg-clip-text pb-2 font-poppins text-3xl font-extrabold text-transparent">
             FEATURES
           </div>
-          <ul className="list-disc font-serif">
+          <ul className="list-disc font-sourcecode">
             <li>Select any color on your screen</li>
             <li>Automatically save selected color to your clipboard</li>
             <li>Choose between HSL, RGB, and HEX color formats</li>

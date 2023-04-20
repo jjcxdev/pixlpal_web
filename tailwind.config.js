@@ -9,8 +9,9 @@ module.exports = {
     extend: {
     },
     fontFamily: {
-      sans: ['Poppins', 'sans-serif'],
-      serif: ['Source Code Pro', 'serif'],
+      'ethnocentric': ['ethnocentric', 'sans-serif'],
+      'poppins': ['Poppins', 'sans-serif'],
+      'sourcecode': ['Source Code Pro', 'serif'],
     }
   },
   plugins: [],
