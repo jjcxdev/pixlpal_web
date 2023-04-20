@@ -24,24 +24,28 @@ const Hero = () => {
         on your screen and automatically save it to your clipboard
       </div>
 
-      <button className="grid rounded-full  border-2 p-4 px-8 text-center">
-        <a
-          href="https://github.com/jjcxdev/PixlPal_free"
-          className="flex gap-2 uppercase"
-        >
+      <button
+        className="grid rounded-full border-2 border-gray-300 p-4 px-8 text-center text-black"
+        onClick={() =>
+          (window.location.href = "https://github.com/jjcxdev/PixlPal_free")
+        }
+      >
+        <div className="flex gap-2 uppercase">
           <FiDownload className="text-2xl" />
-          Download
-        </a>
+          <span>Download</span>
+        </div>
       </button>
 
-      <button className="grid rounded-full  border-2 bg-black p-4 px-8 text-center text-white">
-        <a
-          href="https://www.buymeacoffee.com/jjcx"
-          className="flex gap-2 uppercase"
-        >
+      <button
+        className="grid rounded-full border-2 bg-black p-4 px-8 text-center text-white"
+        onClick={() =>
+          (window.location.href = "https://www.buymeacoffee.com/jjcx")
+        }
+      >
+        <div className="flex gap-2 uppercase">
           <FaCoffee className="text-2xl" />
-          Buy Me a Coffee
-        </a>
+          <span>Buy Me a Coffee</span>
+        </div>
       </button>
 
       <div className="flex w-screen flex-col justify-center gap-12 bg-[#f6fbff] px-10 py-8 font-sourcecode lg:px-80 lg:py-20">
