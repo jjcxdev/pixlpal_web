@@ -4,7 +4,7 @@ import { FaCoffee } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col place-items-center gap-10 rounded-lg">
+    <div className="my-auto flex flex-col place-items-center gap-10 rounded-lg">
       <Image
         className="relative drop-shadow-lg "
         src="/pixlpal_logo_new.png"
@@ -48,7 +48,7 @@ const Hero = () => {
         </div>
       </button>
 
-      <div className="flex w-screen flex-col justify-center gap-12 bg-[#f6fbff] px-10 py-8 font-sourcecode lg:px-80 lg:py-20">
+      <div className="my-20 flex w-screen flex-col justify-center gap-12 px-10 py-8 font-sourcecode lg:px-80 lg:py-20">
         <div>
           <div>
             <span className="bg-gradient-to-r from-[#E748C5] via-[#8350BC] to-[#71E2F1] bg-clip-text font-poppins text-4xl font-extrabold text-transparent">

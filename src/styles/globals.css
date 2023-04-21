@@ -16,4 +16,5 @@ body {
     rgba(246, 252, 255, 1) 100%
   );
   font-family: "poppins", sans-serif;
+  min-height: 100vh;
 }
