@@ -9,11 +9,16 @@ const Nav = () => {
         </p>
         <div className="flex flex-col items-center justify-center p-6 text-center ">
           <a
-            href="https://jjcx.dev"
+            href="https://www.jjcx.dev"
             className="flex flex-col items-center justify-center "
           >
             <span>Created by</span>
-            <span className="font-ethnocentric text-2xl">JJCX</span>
+            <Image
+              src="/jjcx_logo.svg"
+              width={75}
+              height={75}
+              alt="jjcx"
+            ></Image>
           </a>
         </div>
       </div>

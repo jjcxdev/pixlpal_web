@@ -14,7 +14,7 @@ const Footer = ({ onPrivacyLinkClick }: FooterProps) => {
   };
 
   return (
-    <div className="flex flex-col items-center gap-2 py-4 font-serif text-xs">
+    <div className="font-serif flex flex-col items-center gap-2 py-4 text-xs">
       <div>
         <Link href="#" onClick={handlePrivacyLinkClick}>
           Privacy Policy and Terms of Service
@@ -24,7 +24,7 @@ const Footer = ({ onPrivacyLinkClick }: FooterProps) => {
         <FaRegCopyright />
         Justin Chambers 2023
       </div>
-      <a href="https://jjcx.dev">www.jjcx.dev</a>
+      <a href="https://www.jjcx.dev">www.jjcx.dev</a>
     </div>
   );
 };
