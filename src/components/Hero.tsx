@@ -7,18 +7,18 @@ const Hero = () => {
     <div className="flex flex-col place-items-center gap-10 rounded-lg">
       <Image
         className="relative drop-shadow-lg "
-        src="/pixlpallogo.png"
+        src="/pixlpal_logo_new.png"
         alt="PixlPal Logo"
         width={300}
         height={300}
         priority
       />
-      <div className="bg-gradient-to-r from-[#E933ED] to-[#65C4FA] bg-clip-text text-6xl font-bold text-transparent">
+      <div className="bg-gradient-to-r from-[#E748C5] via-[#8350BC] to-[#71E2F1] bg-clip-text text-6xl font-bold text-transparent">
         PixlPal
       </div>
       <div className="mx-12 font-poppins text-3xl font-light">
         Select any{" "}
-        <span className="bg-gradient-to-r from-[#E933ED] to-[#65C4FA] bg-clip-text font-extrabold text-transparent">
+        <span className="bg-gradient-to-r from-[#E748C5] via-[#8350BC] to-[#71E2F1] bg-clip-text font-extrabold text-transparent">
           COLOR
         </span>{" "}
         on your screen and automatically save it to your clipboard
@@ -50,8 +50,10 @@ const Hero = () => {
 
       <div className="flex w-screen flex-col justify-center gap-12 bg-[#f6fbff] px-10 py-8 font-sourcecode lg:px-80 lg:py-20">
         <div>
-          <div className="bg-gradient-to-r from-[#E933ED] to-[#65C4FA] bg-clip-text pb-2 font-poppins text-3xl font-extrabold text-transparent">
-            ABOUT
+          <div>
+            <span className="bg-gradient-to-r from-[#E748C5] via-[#8350BC] to-[#71E2F1] bg-clip-text font-poppins text-4xl font-extrabold text-transparent">
+              ABOUT
+            </span>
           </div>
           PixlPal is a macOS application designed to help users easily capture
           any color on their screen and automatically save it to their
@@ -61,8 +63,10 @@ const Hero = () => {
           more.
         </div>
         <div>
-          <div className="bg-gradient-to-r from-[#E933ED] to-[#65C4FA] bg-clip-text pb-2 font-poppins text-3xl font-extrabold text-transparent">
-            FEATURES
+          <div>
+            <span className="bg-gradient-to-r from-[#E748C5] via-[#8350BC] to-[#71E2F1] bg-clip-text font-poppins text-4xl font-extrabold text-transparent">
+              FEATURES
+            </span>
           </div>
           <ul className="list-disc font-sourcecode">
             <li>Select any color on your screen</li>

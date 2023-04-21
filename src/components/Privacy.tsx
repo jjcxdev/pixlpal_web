@@ -16,15 +16,17 @@ const Privacy = ({ onBackButtonClick }: PrivacyProps) => {
         <div className="px-10 py-6 sm:px-0">
           <button
             onClick={onBackButtonClick}
-            className="mb-10 flex items-center justify-center gap-1 rounded-full bg-gradient-to-r from-[#E933ED] to-[#65C4FA] px-8 py-4 text-white"
+            className="mb-10 flex items-center justify-center gap-1 rounded-full bg-gradient-to-r from-[#E748C5] via-[#8350BC] to-[#71E2F1] px-8 py-4 text-white"
           >
             <IoIosArrowBack />
             Back
           </button>
-          <h1 className="bg-gradient-to-r from-[#E933ED] to-[#65C4FA] bg-clip-text pb-2 font-sans text-3xl font-extrabold text-transparent">
-            Privacy Policy
+          <h1>
+            <span className="bg-gradient-to-r from-[#E748C5] via-[#8350BC] to-[#71E2F1] bg-clip-text font-poppins text-4xl font-extrabold text-transparent">
+              Privacy Policy
+            </span>
           </h1>
-          <p className="mb-10 font-serif">
+          <p className="font-serif mb-10">
             At this time, PixlPal does not collect any personal information from
             its users. We do not use cookies or similar technologies, and we do
             not share any information with third parties. PixlPal is committed
@@ -32,10 +34,12 @@ const Privacy = ({ onBackButtonClick }: PrivacyProps) => {
             information that could be considered personal under applicable
             privacy laws in Ontario, Canada.
           </p>
-          <h1 className="bg-gradient-to-r from-[#E933ED] to-[#65C4FA] bg-clip-text font-sans text-3xl font-extrabold text-transparent">
-            Terms of Service
+          <h1>
+            <span className="bg-gradient-to-r from-[#E748C5] via-[#8350BC] to-[#71E2F1] bg-clip-text font-poppins text-4xl font-extrabold text-transparent">
+              Terms of Service
+            </span>
           </h1>
-          <ul className="mt-4 list-disc pl-4 font-serif">
+          <ul className="font-serif mt-4 list-disc pl-4">
             <li>
               PixlPal is provided &ldquo;as is&rdquo;, and we are not
               responsible for any damage or harm caused by the use of our app.
