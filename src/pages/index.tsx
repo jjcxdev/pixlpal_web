@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import Privacy from "../components/Privacy";
@@ -15,6 +15,12 @@ export default function Home() {
   const handleBackButtonClick = () => {
     setShowPrivacy(false);
   };
+
+  useEffect(() => {
+    if (showPrivacy) {
+      window.scrollTo(0, 0);
+    }
+  }, [showPrivacy]);
 
   return (
     <>

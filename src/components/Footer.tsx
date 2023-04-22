@@ -14,7 +14,7 @@ const Footer = ({ onPrivacyLinkClick }: FooterProps) => {
   };
 
   return (
-    <div className="font-serif flex flex-col items-center gap-2 py-4 text-xs">
+    <div className="font-serif flex flex-col items-center gap-2 py-4 text-xs ">
       <div>
         <Link href="#" onClick={handlePrivacyLinkClick}>
           Privacy Policy and Terms of Service

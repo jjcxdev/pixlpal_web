@@ -28,8 +28,7 @@ const Hero = () => {
         className="grid rounded-full border-2 border-gray-300 p-4 px-8 text-center text-black"
         onClick={() =>
           (window.location.href = "https://github.com/jjcxdev/PixlPal_free")
-        }
-      >
+        }>
         <div className="flex gap-2 uppercase">
           <FiDownload className="text-2xl" />
           <span>Download</span>
@@ -40,8 +39,7 @@ const Hero = () => {
         className="grid rounded-full border-2 bg-black p-4 px-8 text-center text-white"
         onClick={() =>
           (window.location.href = "https://www.buymeacoffee.com/jjcx")
-        }
-      >
+        }>
         <div className="flex gap-2 uppercase">
           <FaCoffee className="text-2xl" />
           <span>Buy Me a Coffee</span>
@@ -69,13 +67,17 @@ const Hero = () => {
             </span>
           </div>
           <ul className="list-disc font-sourcecode">
-            <li>Select any color on your screen</li>
-            <li>Automatically save selected color to your clipboard</li>
-            <li>Choose between HSL, RGB, and HEX color formats</li>
-            <li>Support for Pantone and CMYK (coming soon)</li>
-            <li>Screen measurement features (coming soon)</li>
-            <li>Color history (coming soon)</li>
-            <li> Windows version (coming soon)</li>
+            <li className="pb-1">Select any color on your screen</li>
+            <li className="pb-1">
+              Automatically save selected color to your clipboard
+            </li>
+            <li className="pb-1">
+              Choose between HSL, RGB, and HEX color formats
+            </li>
+            <li className="pb-1">Support for Pantone and CMYK (coming soon)</li>
+            <li className="pb-1">Screen measurement features (coming soon)</li>
+            <li className="pb-1">Color history (coming soon)</li>
+            <li className="pb-1"> Windows version (coming soon)</li>
           </ul>
         </div>
       </div>
