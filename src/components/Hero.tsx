@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { FiDownload } from "react-icons/fi";
 import { FaCoffee } from "react-icons/fa";
 
 const Hero = () => {
@@ -16,36 +15,34 @@ const Hero = () => {
       <div className="bg-gradient-to-r from-[#E748C5] via-[#8350BC] to-[#71E2F1] bg-clip-text text-6xl font-bold text-transparent">
         PixlPal
       </div>
-      <div className="mx-12 font-poppins text-3xl font-light">
+      <div className="mx-12 font-poppins text-2xl font-light md:py-10 md:text-4xl lg:px-20 lg:py-8">
         Select any{" "}
         <span className="bg-gradient-to-r from-[#E748C5] via-[#8350BC] to-[#71E2F1] bg-clip-text font-extrabold text-transparent">
           COLOR
         </span>{" "}
         on your screen and automatically save it to your clipboard
       </div>
+      <div className="flex flex-col gap-6">
+        <button
+          className="w-56 "
+          onClick={() =>
+            (window.location.href =
+              "https://apps.apple.com/ca/app/pixlpal/id6447212748?mt=12")
+          }>
+          <img src="/apple.png" alt="Download" />
+        </button>
 
-      <button
-        className="grid rounded-full border-2 border-gray-300 p-4 px-8 text-center text-black"
-        onClick={() =>
-          (window.location.href = "https://github.com/jjcxdev/PixlPal_free")
-        }>
-        <div className="flex gap-2 uppercase">
-          <FiDownload className="text-2xl" />
-          <span>Download</span>
-        </div>
-      </button>
-
-      <button
-        className="grid rounded-full border-2 bg-black p-4 px-8 text-center text-white"
-        onClick={() =>
-          (window.location.href = "https://www.buymeacoffee.com/jjcx")
-        }>
-        <div className="flex gap-2 uppercase">
-          <FaCoffee className="text-2xl" />
-          <span>Buy Me a Coffee</span>
-        </div>
-      </button>
-
+        <button
+          className="flex w-56 justify-center rounded-lg border-4 border-black  p-5 px-2 text-center text-black"
+          onClick={() =>
+            (window.location.href = "https://www.buymeacoffee.com/jjcx")
+          }>
+          <div className="flex justify-center gap-2 text-center">
+            <FaCoffee className="text-2xl" />
+            <span>Buy Me a Coffee</span>
+          </div>
+        </button>
+      </div>
       <div className="my-20 flex w-screen flex-col justify-center gap-12 px-10 py-8 font-sourcecode lg:px-80 lg:py-20">
         <div>
           <div>
