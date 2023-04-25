@@ -1,38 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Untitled-1](https://github.com/jjcxdev/PixlPal_free/blob/main/pixlpal_logo_new.png)
 
-## Getting Started
+<h1>PixlPal</h1>
 
-First, run the development server:
+<p>PixlPal is a macOS application designed to help users easily capture any color on their screen and automatically save it to their clipboard. The application offers support for various color formats, including HSL, RGB, and HEX. This makes it easy to use the captured color for various purposes such as web design, graphic design, and more.</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<h2>Features</h2>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<ul>
+  <li>Select any color on your screen</li>
+  <li>Automatically save selected color to your clipboard</li>
+  <li>Choose between HSL, RGB, and HEX color formats</li>
+  <li>Windows version (coming soon)</li>
+  <li>Color history (coming soon)</li>
+  <li>Screen measurement features (coming soon)</li>
+  <li>Support for Pantone and CMYK (coming soon)</li>
+</ul>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<h2>Requirements</h2>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<ul>
+  <li>macOS 13.1 or later</li>
+</ul>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<h2>Installation</h2>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<ol>
+  <li>Download the latest release from the <a href="https://apps.apple.com/ca/app/pixlpal/id6447212748?mt=12">App Store</a>.</li>
+</ol>
 
-## Learn More
+<h2>Usage</h2>
 
-To learn more about Next.js, take a look at the following resources:
+<ol>
+  <li>Launch the PixlPal app.</li>
+  <li>From the menubar, select "Preferences" to choose your preferred color format.</li>
+  <li>Select "Color Picker Mode" to enable the color picker.</li>
+  <li>Click on the color you want to select.</li>
+  <li>The color data will be automatically saved to your clipboard.</li>
+</ol>
+<p>With these steps, you can easily select any color on your screen and save it to your clipboard in your preferred format.</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h2>License</h2>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p>PixlPal Copyright © 2023 Justin Chambers. All rights reserved.</p>
