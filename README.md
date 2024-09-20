@@ -1,4 +1,4 @@
-![Untitled-1](https://github.com/jjcxdev/PixlPal_web/blob/main/logo.png)
+![PixlPal](https://github.com/jjcxdev/PixlPal_web/blob/main/public/logo.png)
 # PixlPal
 
 PixlPal is a lightweight macOS application designed to help you capture any color from your screen and instantly save it to your clipboard. With support for multiple color formats, including HSL, RGB, HEX, and CMYK, PixlPal is the perfect tool for web designers, graphic artists, and developers alike.
