@@ -1,44 +1,38 @@
-![Untitled-1](https://github.com/jjcxdev/PixlPal_free/blob/main/pixlpal_logo_new.png)
+![Untitled-1](https://github.com/jjcxdev/PixlPal_web/blob/main/logo.png)
+# PixlPal
 
-<h1>PixlPal</h1>
+PixlPal is a lightweight macOS application designed to help you capture any color from your screen and instantly save it to your clipboard. With support for multiple color formats, including HSL, RGB, HEX, and CMYK, PixlPal is the perfect tool for web designers, graphic artists, and developers alike.
 
-<p>PixlPal is a macOS application designed to help users easily capture any color on their screen and automatically save it to their clipboard. The application offers support for various color formats, including HSL, RGB, and HEX. This makes it easy to use the captured color for various purposes such as web design, graphic design, and more.</p>
+## Core Features
 
-<h2>Features</h2>
+* **Screen Color Selection:** Easily pick any color from your screen with a simple click.
+* **Clipboard Integration:** Automatically save the selected color to your clipboard for immediate use.
+* **Multiple Color Formats:** Choose from HSL, RGB, HEX, or CMYK formats to suit your workflow needs.
 
-<ul>
-  <li>Select any color on your screen</li>
-  <li>Automatically save selected color to your clipboard</li>
-  <li>Choose between HSL, RGB, and HEX color formats</li>
-  <li>Windows version (coming soon)</li>
-  <li>Color history (coming soon)</li>
-  <li>Screen measurement features (coming soon)</li>
-  <li>Support for Pantone and CMYK (coming soon)</li>
-</ul>
+## What's New? (v 2.0)
 
-<h2>Requirements</h2>
+* **Color History at Your Fingertips:** Easily access and view your color history directly from the menubar. With a single click, you can instantly copy any previously selected color to the clipboard.
+* **Seamless Mode Switching:** Effortlessly switch between HSL, RGB, HEX, and newly added CMYK modes directly from the menubar for tailored color representation in real time.
+* **Full CMYK Support:** PixlPal now supports the CMYK color model, making it a perfect tool for designers working in print environments.
+* **Quick Color Picker Access:** Activate the color picker with a global hotkey (⇧⌃⌥P) and capture colors from anywhere on your screen, faster than ever before.
 
-<ul>
-  <li>macOS 13.1 or later</li>
-</ul>
+## Requirements
+* macOS 13.1 or later
 
-<h2>Installation</h2>
+## Installation
 
-<ol>
-  <li>Download the latest release from the <a href="https://apps.apple.com/ca/app/pixlpal/id6447212748?mt=12">App Store</a>.</li>
-</ol>
+Download the latest release from the <a href="https://apps.apple.com/ca/app/pixlpal/id6447212748?mt=12">App Store</a>.
 
-<h2>Usage</h2>
+## Usage
 
-<ol>
-  <li>Launch the PixlPal app.</li>
-  <li>From the menubar, select "Preferences" to choose your preferred color format.</li>
-  <li>Select "Color Picker Mode" to enable the color picker.</li>
-  <li>Click on the color you want to select.</li>
-  <li>The color data will be automatically saved to your clipboard.</li>
-</ol>
-<p>With these steps, you can easily select any color on your screen and save it to your clipboard in your preferred format.</p>
+* Launch PixlPal from your Applications folder.
+* Select a Color Mode directly from the PixlPal menubar (HSL, RGB, HEX, or CMYK). This determines the format in which colors will be captured and displayed.
+* Activate Color Picker Mode from the menubar, or use the global hotkey (⇧⌃⌥P) to quickly begin selecting colors from your screen.
+* Click on any color on your screen to select it. The color will automatically be saved to your clipboard in your chosen format.
+* Color History: View your recent color selections in the menubar. The values displayed in your history will change based on the currently selected color mode. Clicking on any item in the history will copy it to your clipboard in the active format.
 
-<h2>License</h2>
+With PixlPal, you can easily capture colors in various formats and access your recent selections, allowing for quick reuse and switching between modes.
 
-<p>PixlPal Copyright © 2023 Justin Chambers. All rights reserved.</p>
+### License
+
+PixlPal Copyright © 2024 Justin Chambers. All rights reserved.
